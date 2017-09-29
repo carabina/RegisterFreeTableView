@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RegisterFreeTableView_Example' do
+  pod 'RegisterFreeTableView', :path => '../'
+
+  target 'RegisterFreeTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

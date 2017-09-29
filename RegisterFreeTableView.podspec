@@ -9,17 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'RegisterFreeTableView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RegisterFreeTableView.'
+  s.summary          = 'This is my first cocoapod. Please use it'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'https://github.com/AdithyaReddy/RegisterFreeTableView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,9 +23,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'RegisterFreeTableView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'RegisterFreeTableView' => ['RegisterFreeTableView/Assets/*.png']
-  # }
+  s.resource_bundles = {
+   'RegisterFreeTableView' => ['RegisterFreeTableView/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -1,0 +1,16 @@
+PODS:
+  - RegisterFreeTableView (0.1.0)
+
+DEPENDENCIES:
+  - RegisterFreeTableView (from `../`)
+
+EXTERNAL SOURCES:
+  RegisterFreeTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RegisterFreeTableView: 61db5e79fd5fc462c505d89cab488ed58a3ad1b2
+
+PODFILE CHECKSUM: 8bad89f5e99c0b9fce8ee8b6e4b76086460365e4
+
+COCOAPODS: 1.2.1

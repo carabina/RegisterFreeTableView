@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import RegisterFreeTableView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let test = TableViewRegistrationHelper()
+        test.helpTableview()
+        
     }
 
     override func didReceiveMemoryWarning() {

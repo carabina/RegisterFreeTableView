@@ -1,0 +1,6 @@
+framework module RegisterFreeTableView {
+  umbrella header "RegisterFreeTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

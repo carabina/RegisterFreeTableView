@@ -7,11 +7,15 @@
 
 import UIKit
 
-public class TableViewRegistrationHelper: NSObject {
-    
-    public func helpTableview() {
-        print("I help tableview for registration")
+extension UITableView {
+    func getDequeuedTableViewCell(_ tableViewCell: String, indexPath: IndexPath) -> UITableViewCell {
+        
+        var cell: UITableViewCell? = self.dequeueReusableCell(withIdentifier: tableViewCell)
+        if cell == nil {
+            self.register(UINib(nibName: tableViewCell, bundle: nil), forCellReuseIdentifier: tableViewCell)
+            cell = self.dequeueReusableCell(withIdentifier: tableViewCell)
+        }
+        
+        return cell!
     }
-    
 }
-
